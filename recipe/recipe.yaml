@@ -11,7 +11,7 @@ source:
   sha256: 28a407314f03a7bd7a008038dbaffa83448bc670e2fc119609b1d99fb33bb600
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -29,6 +29,7 @@ requirements:
   host:
     - libhiredis
     - zstd
+    - xxhash
     - if: win
       then:
         - ucrt
